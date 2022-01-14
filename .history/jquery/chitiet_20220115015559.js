@@ -127,6 +127,8 @@ $("#imageUpload").change(function() {
 
 $('.main2-transaction').hide();
 $('.main-transaction').click(function(){
+  $('.lorem4').hide();
+
 		$('.lorem4').hide();
 		$('.iii').toggleClass('rotate');
 		$('.main2-transaction').slideDown();
@@ -169,7 +171,6 @@ $('.logout_setting').hide();
 
 
 $('.menu-tapbar').click(function(e){
-  $('.footer').hide();
   $('.iconn-transaction').hide();
   $('.header').hide();
   $('.icon-transaction').hide();
@@ -177,7 +178,7 @@ $('.menu-tapbar').click(function(e){
 })
 $('.icon_menu').click(function(e){
   $('.iconn-transaction').show();
-  $('.footer').show();
+
   $('.header').show();
   $('.icon-transaction').show();
   $('.logout_setting').hide();

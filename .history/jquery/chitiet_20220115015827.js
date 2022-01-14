@@ -177,7 +177,7 @@ $('.menu-tapbar').click(function(e){
 })
 $('.icon_menu').click(function(e){
   $('.iconn-transaction').show();
-  $('.footer').show();
+  $('.footer').hide();
   $('.header').show();
   $('.icon-transaction').show();
   $('.logout_setting').hide();

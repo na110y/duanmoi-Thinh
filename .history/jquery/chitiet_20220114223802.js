@@ -169,7 +169,6 @@ $('.logout_setting').hide();
 
 
 $('.menu-tapbar').click(function(e){
-  $('.footer').hide();
   $('.iconn-transaction').hide();
   $('.header').hide();
   $('.icon-transaction').hide();
@@ -177,7 +176,7 @@ $('.menu-tapbar').click(function(e){
 })
 $('.icon_menu').click(function(e){
   $('.iconn-transaction').show();
-  $('.footer').show();
+
   $('.header').show();
   $('.icon-transaction').show();
   $('.logout_setting').hide();
