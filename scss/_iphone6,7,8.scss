@@ -1,0 +1,108 @@
+@media (min-width:375px) and  (max-width:667px ) { 
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    line-height: 1;
+    background-image:url("../image/Rectangle\ 3.png");
+    background-size: cover;
+  }
+.header {
+    padding: 0 0 12px;
+}
+  .header-form {
+    h2 {
+      position: relative;
+      font-size: 1.5rem;
+      padding-bottom: 0px;
+      margin-bottom: 22px;
+      .header-formr-img {
+        position: absolute;
+        top: 27px;
+      }
+    }
+  }
+  .menu {
+    position: relative;
+    margin-top: 12px;
+    padding-top: 0px;
+    display: block;
+    padding-bottom: 0px;
+    .logo {
+      margin-bottom: 0px;
+      img {
+        width: 133px;
+        height: 41px;
+      }
+    }
+    .menu-list {
+      display: block;
+      .menu-mobile {
+        position: absolute;
+        top: 42px;
+        left: 160px;
+
+        .img {
+          margin-left: 14px;
+        }
+      }
+    }
+  }
+  main {
+    .form-mobile {
+          margin-top: 60px;
+          padding: 20px;
+          max-width: 300px;
+          .form {
+            margin-bottom: 12px;
+          }
+          .form label {
+            font-size: 12px;
+            margin-bottom: 6px;
+          }
+        .form-luu {
+          margin-bottom: 12px;
+          input {
+            width: 17px;
+            height: 15px;
+          }
+          &_mobile {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          }
+          button {
+            padding: 6px 101px;
+            margin-bottom:12px
+          }
+          margin-bottom: 15px
+    }
+    .form-mobile_app {
+      .or {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 6px;
+      }
+      .or-footer{
+        position: absolute;
+        width: 152px;
+        height: 1px;
+        background: rgba(101, 1, 7, 0.16);
+        justify-content: center;
+        align-items: center;
+    }
+    }
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+    img {
+      margin-bottom: 5px;
+    }
+  }
+} 

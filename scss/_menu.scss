@@ -1,0 +1,39 @@
+
+
+// @include  mobile678 {
+//   .header {
+//     padding: 0 0 12px;
+// }
+// }
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 20px 0;
+}
+
+.menu-list {
+display: inline-flex;
+justify-content: center;
+align-items: center;
+  .menu-item{
+    a {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 143%;
+      letter-spacing: 0.003em;
+      color: rgba(255, 255, 255, 0.87);
+      margin-left: 36px;
+
+      img {
+        margin-right: 8px;
+        transform: translateY(9px);
+      }
+      .img {
+        margin-left: 30px;
+      }
+    }
+  }
+}

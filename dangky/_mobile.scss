@@ -1,0 +1,380 @@
+// ip 6/7/8 
+@media (min-width:375px) and  (max-width:667px ) { 
+
+  body {
+    font-size: 12px;
+  }
+
+ .header {
+     padding: 0 0 12px;
+}
+  
+  .logo {
+    img {
+      width: 100px;
+    }
+  }
+  .header-form {
+  h2 {
+    position: relative;
+    padding-bottom: 0px;
+    margin-bottom: 22px;
+    font-size: 18px;
+    .header-formr-img {
+      position: absolute;
+      top: 27px;
+    }
+  }
+  }
+  .menu {
+    position: relative;
+    margin-top: 0px;
+    padding-top: 10px;
+    display: block;
+    .logo {
+      margin-bottom: 0px;
+      width: 120px;
+      input {
+        height: 10px;
+        font-size: 12px;
+          &::placeholder {
+            font-size: 12px;
+          }
+      }
+    }
+    .menu-list {
+      display: block;
+      .menu-mobile {
+        position: absolute;
+        top: 29px;
+        left: 160px;
+        .img {
+          margin-left: 14px;
+        }
+      }
+    }
+  }
+  main {
+    .form-mobile {
+          margin-top: 20px;
+          padding: 15px;
+          max-width: 300px;
+          img {
+            width: 58px;
+            &::placeholder {
+              font-size: 10px;
+            }
+          }
+          .form {
+            margin-bottom: 12px;
+            img {
+              width: 18px;
+              margin-top: 7px;
+            }
+          }
+          .form label {
+            font-size: 12px;
+            margin-bottom: 6px;
+          }
+        .form-luu {
+          margin-bottom: 12px;
+          input {
+            width: 17px;
+            height: 15px;
+          }
+          &_mobile {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          }
+          button {
+            padding: 6px 0;
+          }
+          .email-code {
+            transform: translateX(110px);
+            font-size: 10px;
+  
+           }
+
+    }
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+    img {
+      margin-bottom: 5px;
+    }
+  }
+} 
+.email_code {
+  input {
+    height: 10px;
+    &::placeholder {
+      font-size: 10px;
+    }
+  }
+ }
+.form-code{
+  label {
+    // margin-bottom: 10px;
+  }
+  input {
+    height: 10px;
+    &::placeholder {
+      font-size: 11px;
+    }
+  }
+}
+
+// ip 6/7/8 plus
+@media (min-width:414px) and  (max-width:763px ) { 
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    line-height: 1;
+    background-image:url(../image/Rectangle\ 3.png);
+    font-family: monospace,sans-serif;
+}
+  .header {
+  h2 {
+    position: relative;
+    font-size: 1.5rem;
+    padding-bottom: 0px;
+    margin-bottom: 32px;
+    .header-formr-img {
+      position: absolute;
+      top: 27px;
+    }
+  }
+  }
+  // css menu
+  .menu {
+    position: relative;
+    margin-top: 0px;
+    padding-top: 10px;
+    display: block;
+    .logo {
+      margin-bottom: 0px;
+      width: 120px;
+      input {
+        height: 10px;
+        font-size: 12px;
+          &::placeholder {
+            font-size: 12px;
+          }
+      }
+    }
+    .menu-list {
+      display: block;
+      .menu-mobile {
+        position: absolute;
+        top: 29px;
+        left: 160px;
+        .img {
+          margin-left: 14px;
+        }
+      }
+    }
+  }
+  // css menu end
+  main {
+    .form-mobile {
+          margin-top: 50px;
+          padding: 20px;
+          max-width: 340px;
+          .form {
+            margin-bottom: 20px;
+          }
+          .form label {
+            font-size: 15px;
+            margin-bottom: 6px;
+          }
+        .form-luu {
+          margin-bottom: 12px;
+          input {
+            height: 10px;
+            &::placeholder {
+              font-size: 10px;
+            }
+          }
+          &_mobile {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          }
+          button {
+            padding: 6px 0;
+
+          }
+          margin-bottom: 40px
+    }
+    .form-mobile_app {
+      .or {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 6px;
+      }
+      .or-footer{
+        position: absolute;
+        width: 152px;
+        height: 1px;
+        background: rgba(101, 1, 7, 0.16);
+        justify-content: center;
+        align-items: center;
+    }
+    }
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+    img {
+      margin-bottom: 5px;
+    }
+  }
+} 
+
+.form-code{
+  label {
+    // margin-bottom: 10px;
+  }
+  input {
+    height: 10px;
+    &::placeholder {
+      font-size: 11px;
+    }
+  }
+}
+// iphone x
+@media (min-width:375px) and  (max-width:812px ) { 
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    line-height: 1;
+    background-image:url(../image/Rectangle\ 3.png);
+}
+  .header-form {
+  h2 {
+    position: relative;
+    font-size: 18px;
+    padding-bottom: 0px;
+    margin-bottom: 32px;
+    .header-formr-img {
+      position: absolute;
+      top: 27px;
+    }
+  }
+  }
+  .menu {
+    position: relative;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    display: block;
+    .logo {
+      margin-bottom: 0px;
+      input {
+        height: 10px;
+        font-size: 12px;
+          &::placeholder {
+            font-size: 12px;
+          }
+      }
+    }
+    .menu-list {
+      display: block;
+      .menu-mobile {
+        position: absolute;
+        top: 29px;
+        left: 160px;
+        .img {
+          margin-left: 14px;
+        }
+      }
+    }
+  }
+  main {
+    .form-mobile {
+          margin-top: 50px;
+          padding: 15px;
+          max-width: 300px;
+          .form {
+            margin-bottom: 20px;
+          }
+          .form label {
+            font-size: 15px;
+            margin-bottom: 6px;
+          }
+        .form-luu {
+          margin-bottom: 12px;
+
+          &_mobile {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          }
+          button {
+            padding: 6px 0;
+            // margin-bottom: 12px;
+
+          }
+          margin-bottom: 40px
+    }
+    .form-mobile_app {
+      .form-taikhoan {
+        margin-bottom: 15px;
+        &-information {
+          margin-bottom: 10px;
+        }
+      }
+
+      .or {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 6px;
+      }
+      .or-footer{
+        position: absolute;
+        width: 152px;
+        height: 1px;
+        background: rgba(101, 1, 7, 0.16);
+        justify-content: center;
+        align-items: center;
+    }
+    }
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+    img {
+      margin-bottom: 5px;
+    }
+  }
+} 
+.form-code{
+  label {
+    // margin-bottom: 10px;
+  }
+  input {
+    height: 15px;
+    &::placeholder {
+      font-size: 12px;
+      padding: 10px 0;
+    }
+  }
+}

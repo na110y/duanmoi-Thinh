@@ -1,0 +1,671 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+}
+
+label,
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header {
+  padding: 16px 0 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+ul, li {
+  list-style: none;
+}
+
+button {
+  border: none;
+  color: rgba(101, 1, 7, 0.87);
+  text-align: center;
+  letter-spacing: 0.012em;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+input {
+  border: 0;
+  outline: none;
+  background: #FFFFFF;
+  border: 1px solid #E8E8E8;
+  box-sizing: border-box;
+  border-radius: 8px;
+  height: 48px;
+  width: 100%;
+}
+input::placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.012em;
+  color: rgba(101, 1, 7, 0.87);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+  background: url(../image/Rectangle\ 3.png);
+  background-size: cover;
+}
+
+main {
+  position: relative;
+}
+
+.background {
+  position: absolute;
+  justify-content: center;
+  top: 340px;
+  left: 240px;
+  z-index: -1;
+}
+
+button {
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 20px 0;
+}
+
+.menu-list {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-list .menu-item a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0.003em;
+  color: rgba(255, 255, 255, 0.87);
+  margin-left: 36px;
+  transition: all 1s ease;
+}
+.menu-list .menu-item a:hover {
+  color: #333;
+  transition: all 0.8s ease;
+}
+.menu-list .menu-item a img {
+  margin-right: 8px;
+  transform: translateY(9px);
+}
+.menu-list .menu-item a img:hover {
+  color: #333;
+  transition: all 0.8s ease;
+}
+.menu-list .menu-item a .img {
+  margin-left: 30px;
+}
+
+.form-login {
+  max-width: 471px;
+  margin: 0 auto;
+  background: #FFFFFF;
+  border-radius: 40px;
+  padding: 40px 24px;
+  margin-top: 88px;
+  margin-bottom: 111px;
+}
+
+.header-form h2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 48px;
+  color: #650107;
+}
+.header-form .header-formr-img {
+  position: absolute;
+  top: 38px;
+}
+
+.form-taikhoan {
+  margin-bottom: 17px;
+}
+.form-taikhoan p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0.012em;
+  color: rgba(101, 1, 7, 0.6);
+}
+.form-taikhoan p a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0.012em;
+  color: #FE616B;
+  margin-left: 8px;
+}
+
+.form {
+  display: grid;
+  margin-bottom: 16px;
+}
+.form label {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0.012em;
+  text-transform: capitalize;
+  color: rgba(101, 1, 7, 0.87);
+  margin-bottom: 8px;
+}
+.form input {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 12px 16px;
+  color: rgba(101, 1, 7, 0.87);
+}
+.form-luu {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.form-luu a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: right;
+  letter-spacing: 0.012em;
+  color: #FE616B;
+}
+.form-luu label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.012em;
+  color: rgba(101, 1, 7, 0.87);
+}
+.form-luu input {
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-right: 12px;
+}
+
+button {
+  background-color: #FE616B;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 12px 0;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.012em;
+  color: #FFFFFF;
+  transition: all 1s ease;
+}
+button:hover {
+  background-color: #dbdb;
+  transition: all 0.8s ease;
+  color: #FFFFFF;
+}
+
+.matkhau-icon #matkhau {
+  position: relative;
+}
+.matkhau-icon img {
+  position: absolute;
+  transform: translate(-41px, 10px);
+}
+
+.icon_matkhau {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon_matkhau .email-code {
+  position: absolute;
+  justify-content: center;
+  transform: translateX(188px);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: right;
+  letter-spacing: 0.012em;
+  color: #FE616B;
+  transition: all 1s ease;
+}
+.icon_matkhau .email-code:hover {
+  color: #dbdb;
+  transition: all 0.8s ease;
+}
+
+.form-code {
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  padding-left: 16px;
+  border-left: 2px solid #ffc3c7;
+  margin-bottom: 32px;
+}
+.form-code label {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0.012em;
+  text-transform: capitalize;
+  color: rgba(101, 1, 7, 0.87);
+  margin-top: 8px;
+}
+.form-code input {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.012em;
+  color: rgba(101, 1, 7, 0.32);
+  padding: 12px 0 12px 16px;
+}
+.form-code input::placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.012em;
+  color: rgba(101, 1, 7, 0.32);
+  opacity: 1;
+}
+
+@media (min-width: 375px) and (max-width: 667px) {
+  body {
+    font-size: 12px;
+  }
+
+  .header h2 {
+    position: relative;
+    padding-bottom: 0px;
+    margin-bottom: 22px;
+    font-size: 18px;
+  }
+  .header h2 img {
+    position: absolute;
+    top: 15px;
+  }
+
+  .menu {
+    position: relative;
+    margin-top: 12px;
+    padding-bottom: 10px;
+    display: block;
+  }
+  .menu .logo {
+    margin-bottom: 0px;
+  }
+  .menu .logo input {
+    height: 10px;
+    font-size: 12px;
+  }
+  .menu .logo input::placeholder {
+    font-size: 12px;
+  }
+  .menu .menu-list {
+    display: block;
+  }
+  .menu .menu-list .menu-mobile {
+    position: absolute;
+    top: 62px;
+    left: 160px;
+  }
+  .menu .menu-list .menu-mobile .img {
+    margin-left: 14px;
+  }
+
+  main .form-mobile {
+    margin-top: 20px;
+    padding: 15px;
+    max-width: 300px;
+  }
+  main .form-mobile img {
+    width: 58px;
+  }
+  main .form-mobile img::placeholder {
+    font-size: 10px;
+  }
+  main .form-mobile .form {
+    margin-bottom: 12px;
+  }
+  main .form-mobile .form img {
+    width: 18px;
+    margin-top: 7px;
+  }
+  main .form-mobile .form label {
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+  main .form-mobile .form-luu {
+    margin-bottom: 12px;
+  }
+  main .form-mobile .form-luu input {
+    width: 17px;
+    height: 15px;
+  }
+  main .form-mobile .form-luu_mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .form-mobile button {
+    padding: 6px 0;
+  }
+  main .form-mobile .email-code {
+    transform: translateX(110px);
+    font-size: 10px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  .footer img {
+    margin-bottom: 5px;
+  }
+}
+.email_code input {
+  height: 10px;
+}
+.email_code input::placeholder {
+  font-size: 10px;
+}
+
+.form-code input {
+  height: 10px;
+}
+.form-code input::placeholder {
+  font-size: 11px;
+}
+
+@media (min-width: 414px) and (max-width: 763px) {
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    line-height: 1;
+    background-image: url(../image/Rectangle\ 3.png);
+    font-size: 12px;
+  }
+
+  .header h2 {
+    position: relative;
+    font-size: 1.5rem;
+    padding-bottom: 0px;
+    margin-bottom: 32px;
+  }
+  .header h2 img {
+    position: absolute;
+    top: 15px;
+  }
+
+  .menu {
+    position: relative;
+    margin-top: 12px;
+    padding-bottom: 30px;
+    display: block;
+  }
+  .menu .logo {
+    margin-bottom: 0px;
+  }
+  .menu .logo input {
+    height: 10px;
+    font-size: 12px;
+  }
+  .menu .logo input::placeholder {
+    font-size: 12px;
+  }
+  .menu .menu-list {
+    display: block;
+  }
+  .menu .menu-list .menu-mobile {
+    position: absolute;
+    top: 62px;
+    left: 160px;
+  }
+  .menu .menu-list .menu-mobile .img {
+    margin-left: 14px;
+  }
+
+  main .form-mobile {
+    margin-top: 50px;
+    padding: 20px;
+    max-width: 340px;
+    margin-bottom: 40px;
+  }
+  main .form-mobile .form {
+    margin-bottom: 20px;
+  }
+  main .form-mobile .form label {
+    font-size: 15px;
+    margin-bottom: 6px;
+  }
+  main .form-mobile .form-luu {
+    margin-bottom: 12px;
+  }
+  main .form-mobile .form-luu input {
+    height: 10px;
+  }
+  main .form-mobile .form-luu input::placeholder {
+    font-size: 10px;
+  }
+  main .form-mobile .form-luu_mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .form-mobile button {
+    padding: 6px 0;
+  }
+  main .form-mobile_app .or {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6px;
+  }
+  main .form-mobile_app .or-footer {
+    position: absolute;
+    width: 152px;
+    height: 1px;
+    background: rgba(101, 1, 7, 0.16);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  .footer img {
+    margin-bottom: 5px;
+  }
+}
+.form-code input {
+  height: 10px;
+}
+.form-code input::placeholder {
+  font-size: 11px;
+}
+
+@media (min-width: 375px) and (max-width: 812px) {
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    line-height: 1;
+    background-image: url(../image/Rectangle\ 3.png);
+  }
+
+  .header h2 {
+    position: relative;
+    font-size: 18px;
+    padding-bottom: 0px;
+    margin-bottom: 32px;
+  }
+  .header h2 img {
+    position: absolute;
+    top: 15px;
+  }
+
+  .menu {
+    position: relative;
+    margin-top: 12px;
+    padding-bottom: 30px;
+    display: block;
+  }
+  .menu .logo {
+    margin-bottom: 0px;
+  }
+  .menu .logo input {
+    height: 10px;
+    font-size: 12px;
+  }
+  .menu .logo input::placeholder {
+    font-size: 12px;
+  }
+  .menu .menu-list {
+    display: block;
+  }
+  .menu .menu-list .menu-mobile {
+    position: absolute;
+    top: 62px;
+    left: 160px;
+  }
+  .menu .menu-list .menu-mobile .img {
+    margin-left: 14px;
+  }
+
+  main .form-mobile {
+    margin-top: 50px;
+    padding: 15px;
+    max-width: 300px;
+    margin-bottom: 40px;
+  }
+  main .form-mobile .form {
+    margin-bottom: 20px;
+  }
+  main .form-mobile .form label {
+    font-size: 15px;
+    margin-bottom: 6px;
+  }
+  main .form-mobile .form-luu {
+    margin-bottom: 12px;
+  }
+  main .form-mobile .form-luu_mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .form-mobile button {
+    padding: 6px 0;
+  }
+  main .form-mobile_app .or {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6px;
+  }
+  main .form-mobile_app .or-footer {
+    position: absolute;
+    width: 152px;
+    height: 1px;
+    background: rgba(101, 1, 7, 0.16);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  .footer img {
+    margin-bottom: 5px;
+  }
+}
+.form-code input {
+  height: 15px;
+}
+.form-code input::placeholder {
+  font-size: 12px;
+  padding: 10px 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.footer img {
+  margin-bottom: 24px;
+}
+
+.header-login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+}
+.header-login-img {
+  background-color: #f0a8b5;
+}
+
+.header-ke {
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  left: 0px;
+  top: 105px;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+/*# sourceMappingURL=app.scss.map */

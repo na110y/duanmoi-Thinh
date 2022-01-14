@@ -1,0 +1,175 @@
+
+.nhantin-thue {
+  position: fixed;
+  max-width:367px;
+  width:100%;
+  background: #FAFAFA;
+  border-radius: 24px 24px 0px 0px;
+  bottom: 0;
+  right: 326px;
+	box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.09);
+
+.clickclone {
+	cursor: pointer;
+	padding: 5px;
+}
+  .click {
+	  display: flex;
+	  justify-content: space-between;
+	  align-items: center;
+	  padding: 0 12px;
+	  background-color: #FFFFFF;
+	border-radius: 24px 24px 0px 0px;
+	  .clickclone {
+		width: 12px;
+		height: 12px;
+		color: rgba(101, 1, 7, 0.38);
+	}
+  }
+
+    .infor-mess {
+
+	  a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+			.infor-peoplethue {
+				width: 24px;
+				height: 24px;
+			}
+			.infor-thueicon {
+				font-family: Montserrat;
+				font-style: normal;
+				font-weight: 600;
+				font-size: 14px;
+				line-height: 143%;
+				letter-spacing: 0.3px;
+				color: #650107;
+				margin-left: 8px;
+				}
+		}
+
+    }
+}
+.content-mess {
+	margin-top: 112px;
+	background-color: rgb(252, 252, 252);
+	padding: 12px;
+	li {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.people1 {
+			width: 40px;
+			height: 40px;
+			transform: translateY(-28px);
+		}
+		.people2 {
+			width: 40px;
+			height: 40px;
+			transform: translateY(-45px);
+			margin-left: 8px;
+		}
+		.tinnhan {
+			max-width: 251px;
+			width: 100%;
+			padding: 12px;
+			background: #FFFFFF;
+			border-radius: 8px;
+			margin-left: 12px;
+			border-radius: 8px;
+			p {
+				margin: 0 0 10px;
+				font-family: Montserrat;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 14px;
+				line-height: 143%;
+				letter-spacing: 0.3px;
+				color: #650107;
+			}
+			.timeskip {
+				font-family: Montserrat;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 12px;
+				line-height: 167%;
+				letter-spacing: 0.3px;
+				color: rgba(101, 1, 7, 0.38);
+			}
+		}
+
+
+		.tinnhan2 {
+			max-width: 251px;
+			width: 100%;
+			padding: 12px;
+			background: #FFFFFF;
+			border-radius: 8px;
+			margin-left: 12px;
+			background: linear-gradient(180deg, #FE858D 0%, #FE616B 100%);
+			border-radius: 8px;
+			p {
+				margin: 0 0 10px;
+				font-family: Montserrat;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 14px;
+				line-height: 143%;		
+				letter-spacing: 0.3px;		
+				color: #FFFFFF;
+			}
+			.timeskip {
+				font-family: Montserrat;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 12px;
+				line-height: 167%;
+				letter-spacing: 0.3px;	
+				color: rgba(255, 255, 255, 0.6);
+			}
+		}
+	}
+}
+
+	.messgoc {
+		margin-top: 24px;
+	}
+
+.message {
+	position: relative;
+	max-width: 251px;
+	height: 40px;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 4px rgb(29 68 73 / 8%);
+	border-radius: 1000px;
+	margin-left: 12px;
+	padding: 0 45px;
+
+}
+
+.nvadmin {
+    position: absolute;
+    bottom: 27px;
+    width: 24px;
+    height: 24px;
+    left: 24px;
+}
+.editLink {
+	position: absolute;
+	bottom: 30px;
+	width: 15px;
+	height: 17px;
+	right: 58px;
+	cursor: pointer;
+
+}
+
+.supmittt {
+	position: absolute;
+	bottom: 29px;
+	width: 35px;
+	height: 17px;
+	right: 20px;
+	cursor: pointer;
+}

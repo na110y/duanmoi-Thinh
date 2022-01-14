@@ -1,0 +1,345 @@
+@import "media";
+.icon-transaction {
+	max-width: 1310px;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background: #fffafa;
+	@include deptop1111 {
+		max-width: 1310px;
+		width: 100%;
+		margin: 0	;
+		padding: 0
+
+	}
+
+
+}
+
+table {
+	max-width: 1310px;
+	width: 100%;
+	background: #FFFFFF;
+	padding: 14px 0px;
+	border-collapse:collapse;
+	border-radius: 24px;
+	margin: 0 auto;
+	@include deptop1111 {
+			max-width: 1000px;
+			width: 100%;
+	}
+	@include deptop991 {
+		max-width: 900px;
+		width: 100%;
+}
+@include deptop1250 {
+	max-width: 1100px;
+	width: 100%;
+}
+@include deptop1108 {
+	max-width: 1050px;
+	width: 100%;
+}
+
+
+
+
+	th {
+		background: rgba(254, 97, 107, 0.06);
+	}
+	td {
+		// display: block;
+	}
+	td , th {
+		padding: 16px 0;
+	}
+	tr {
+		margin: 13px 0;
+		@include deptop1111 {
+			margin: 10px 0;
+	
+	
+			}
+	}
+	.body-transaction {
+		width: 180px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 143% ;
+		text-align: center;
+		letter-spacing: 0.012em;
+		text-transform: capitaliz;
+		border-radius: 0;
+		border: none;
+		color: #FE616B;
+		@include deptop1111 {
+			font-size: 12px;
+	}
+	@include deptop991 {
+		font-size: 11px;
+	}
+	@include deptop865 {
+		font-size: 10px;
+	}
+	@include deptop865 {
+		font-size: 13px;
+
+	}
+	
+
+	}
+	.body-transactionnn {
+		width: 317px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 143% ;
+		text-align: center;
+		letter-spacing: 0.012em;
+		text-transform: capitalize;
+		color: #FE616B;
+		margin-bottom: 30px;
+		@include deptop1111 {
+			font-size: 12px;
+		}
+		@include deptop865 {
+				font-size: 13px;
+		}
+
+	}
+	
+	.main-transaction {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 150% ;
+		text-align: center;
+		letter-spacing: 0.012em;
+		color: rgba(101, 1, 7, 0.6);
+		background: #FFFFFF;
+ 		border-radius: 24px;
+		 @include deptop1111 {
+			font-size: 12px;
+		}
+		@include deptop865 {
+			font-size: 13px;
+	
+		}
+	}
+}
+.tbl-transaction{
+	max-width: 1310px;
+	width: 100%;
+	thead{
+		background: rgba(254, 97, 107, 0.06);
+		border-radius: 24px 24px 0px 0px;
+		border-radius: 24px;
+		@include deptop865 {
+			font-size: 10px;
+	
+			}
+	}
+	@include deptop865 {
+		max-width: 810px;
+		width: 100%;
+
+	}
+
+}	
+.main2-transaction {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 150% ;
+	text-align: center;
+	letter-spacing: 0.012em;
+	color: rgba(101, 1, 7, 0.6);
+	background: #FFFFFF;
+	 border-radius: 24px;
+}
+
+.rotate  {
+	transform: rotate(180deg);
+	transition: all 0.3s;
+}
+
+
+table {
+	width: 1000px;
+
+	thead {
+		@include deptop865 {
+		overflow-x:auto;
+			}
+	}
+} 
+@include deptop865 {
+	.tbl-transaction {
+		max-width: 1300px;
+		width: 100%;
+		overflow:auto;
+	}
+}
+@include deptop800 {
+	.tbl-transaction {
+		width: 1300px;
+		overflow:auto;
+	}
+}
+
+// search
+
+.search {
+	display: flex;
+	align-items: center;
+	background: #FFFFFF;
+	border-radius: 24px;
+	margin-bottom: 24px;
+	@include deptop1111 {
+		max-width: 950px;
+		width: 100%;	
+	}
+	@include deptop991 {
+		max-width: 900px;
+		width: 100%;	
+	}
+	@include deptop590 {
+		max-width: 500px;
+		width: 100%;
+		display: block;
+		padding: 16px 26px;
+	
+		@include deptop555 {
+			
+			width: auto;
+		}
+	
+	}
+
+			.input-transaction {
+				background: #FFFFFF;
+				border: 1px solid #E8E8E8;
+				box-sizing: border-box;
+				border-radius: 8px;
+				font-family: Montserrat;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 16px;
+				line-height: 150%;
+				letter-spacing: 0.012em;
+				color: rgba(101, 1, 7, 0.32);
+				// padding: 12px 16px;
+				max-width: 912px;
+				width: 100%;
+				height: 48px;
+				margin: 0;
+				@include deptop590 {
+					width: 100%;
+					height: 40px;
+				}
+			}
+}
+
+// tiêu đề lịch sử giao dịch
+
+.iconn-transaction {
+	max-width: 1310px;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background: #fffafa;
+	@include deptop1111 {
+		max-width: 1310px;
+		width: 100%;
+		margin: 0	;
+		padding: 0
+	}
+	@include deptop590 {
+		width: 100%;
+	}
+}
+
+// search
+.infor-transaction {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 133% ;
+	letter-spacing: 0.024em;
+	color: #650107;
+	@include deptop1111 {
+		font-size: 20px;
+		margin-left: 15px;
+	}
+	@include deptop991 {
+		font-size: 16px;
+		margin-left: 15px;
+	}
+	@include deptop991 {
+		font-size: 14px;
+		margin-left: 15px;
+	}
+	@include deptop381 {
+		position: absolute;
+		top: 11px;
+		color: #FFFFFF;
+		
+
+	}
+
+
+	}
+// select
+select {
+	width: 240px;
+	background: #FFFFFF;
+	border: 1px solid #E8E8E8;
+	box-sizing: border-box;
+	border-radius: 8px;
+	height: 48px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height:  150%;
+	letter-spacing: 0.012em;
+	color: rgba(101, 1, 7, 0.32);
+	padding: 12px 16px;
+	outline: 0;
+	margin-left: 16px;
+
+	@include deptop1111 {
+		margin-left: 20px;
+	}
+	@include deptop590 {
+		margin:0;
+		width: 100%;
+		height: 40px;
+		padding: 5px 16px;
+	}
+	option {
+		outline: 0;
+	}
+}
+.transaction-search {
+	padding: 0;
+	width: 65px;
+	margin-top: 5px;
+	@include deptop590 {
+		width: 56px;
+		margin-top: 7px;
+	}
+}
+.select-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

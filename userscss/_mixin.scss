@@ -1,0 +1,19 @@
+
+@mixin mobile678{
+  @media only screen and (max-width: 375px) {
+    @content;
+  }
+}
+
+@mixin mobile678plus{
+  @media only screen and (max-width: 736px) {
+    @content;
+  }
+}
+
+@mixin mobileX{
+  @media only screen and (max-width: 824px) {
+    @content;
+  }
+}
+

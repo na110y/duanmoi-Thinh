@@ -1,0 +1,297 @@
+.manhinh{
+  position: fixed;
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; 
+  background-color: rgba(0,0,0,0.72);
+}
+.thue {
+  position: relative;
+  background: #FFFFFF;
+  border-radius: 24px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  opacity: 1;
+  top:15%;
+  max-width:628px;
+  margin: 0 auto;
+  .click-thue {
+    margin: 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 133% ;
+    letter-spacing: 0.024em;
+    color: rgba(101, 1, 7, 0.87);
+  }
+
+}
+.click {
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  img {
+  }
+}
+
+.header-people {
+  left: 0px;
+  top: 0px;
+  background: #FE616B;
+  display: flex;
+
+  align-items: center;
+  img {
+    padding: 28px 32px;
+  }
+  .info-peopo {
+    .info-icon {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0.024em;
+      color: #FFFFFF;
+    }
+    .price-icon {
+      display: flex;
+      align-items: center;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 143%;
+      letter-spacing: 0.024em;
+      color: rgba(255, 255, 255, 0.87);
+      p {
+        font-weight: 400;
+        margin-left: 8px;
+        font-size: 14px;
+        color: rgb(248, 187, 191);
+
+      }
+
+    }
+  }
+}
+
+// img thay đổi ảnh đại diện
+.avatar-upload {
+  position: relative;
+  max-width: 205px;
+  margin: 20px 24px;
+
+  .avatar-edit {
+      position: absolute;
+      right: 12px;
+      z-index: 1;
+      top: 10px;
+      input {
+          display: none;
+          + label {
+            display: inline-block;
+            width: 25px;
+            height: 25px;
+            margin-bottom: 0;
+            border-radius: 100%;
+            background: #FFFFFF;
+            border: 1px solid transparent;
+            box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 12%);
+            cursor: pointer;
+            font-weight: normal;
+            transition: all 0.2s ease-in-out;
+        
+              &:hover {
+                  background: #f1f1f1;
+                  border-color: #d6d6d6;
+              }
+              &:after {
+                content: "\f040";
+                font-family: "FontAwesome";
+                color: #757575;
+                position: absolute;
+                top: 5px;
+                left: 2px;
+                right: 0;
+                text-align: center;
+                margin: auto;
+              }
+          }
+      }
+  }
+  .avatar-preview {
+    width: 140px;
+    height: 141px;
+    position: relative;
+    border-radius: 100%;
+      > div {
+          width: 100%;
+          height: 100%;
+          border-radius: 100%;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+      }
+  }
+}
+
+.sogiothue {
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  
+  .time {
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .time-thue {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;       
+        text-align: right;
+        letter-spacing: 0.012em;  
+        color: #650107;
+        span {
+        font-size: 12px;
+          opacity: 0.6;
+        }
+      }
+      .dieuhuong-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 10px;
+        button {
+          img {
+            width: 40px;
+            height: 40px;
+            margin: 0 -10px;
+          }
+        }
+      }
+        .price-thue {
+          display: flex;
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 14px;
+          line-height: 143%;
+          text-align: right;
+          color: #FE616B;
+          letter-spacing: 0.012em;
+          &-price {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 143% ;
+            text-align: right;
+            letter-spacing: 0.012em;
+            color: #FE616B;
+            padding: 0;
+            margin: 0;
+          }
+              .vnd {
+              font-family: Montserrat;
+              font-weight: 400;
+              color: #FE616B;
+              opacity: 0.5;
+                margin-left: 10px;
+              }
+        }
+    }
+    .icon-surplus {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 510;
+      font-size: 14px;
+      line-height: 143% ;    
+      letter-spacing: 0.012em;   
+      color: rgba(101, 1, 7, 0.6);
+      .price_du {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 143%;
+        text-align: right;
+        color: #FE616B;
+        letter-spacing: 0.012em;
+      }
+      .vnd  {
+        font-family: Montserrat;
+        font-weight: 400;
+        color: #FE616B;
+        opacity: 0.5;
+
+      }
+    }
+  }
+}
+button img {
+ width: 25px;
+ height: 25px;         
+}
+
+.text-input {
+  position: relative;
+  max-width: 580px;
+  height: 96px;
+  
+  &::placeholder {
+  position: absolute;
+  padding: 10px 16px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0.012em;
+  color: rgba(101, 1, 7, 0.32);
+  }
+}
+.supmit-card {
+  padding: 34px 24px; 
+  border-radius: 24px;
+  .supmit-thue {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.012em;
+    color: #FFFFFF;
+    padding: 10px 24px;
+    background: linear-gradient(180deg, #FE858D 0%, #FE616B 100%);
+    box-shadow: 0px 6px 24px rgba(254, 97, 107, 0.16);
+    border-radius: 8px;
+    margin-left: 491px;
+  }
+  }
+
+  .icon-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0px;
+    border-bottom: 1px solid  #E8E8E8;
+    span {
+      margin-left: 12px;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 167% ;
+      text-align: right;
+      letter-spacing: 0.012em;
+      color: #650107;
+      opacity: 0.6;
+    }
+  }

@@ -1,0 +1,634 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+}
+
+label,
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header {
+  padding: 16px 0 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+ul, li {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background-color: #fff;
+  color: rgba(101, 1, 7, 0.87);
+  text-align: center;
+  letter-spacing: 0.012em;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+  background: url(../image/Rectangle\ 3.png);
+  background-size: cover;
+}
+
+main {
+  position: relative;
+}
+
+.background {
+  position: absolute;
+  justify-content: center;
+  top: 340px;
+  left: 240px;
+  z-index: -1;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 20px 0;
+}
+
+.menu-list {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-list .menu-item a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0.003em;
+  color: rgba(255, 255, 255, 0.87);
+  margin-left: 36px;
+}
+.menu-list .menu-item a img {
+  margin-right: 8px;
+  transform: translateY(9px);
+}
+.menu-list .menu-item a .img {
+  margin-left: 30px;
+}
+
+.form-login {
+  max-width: 471px;
+  margin: 0 auto;
+  background: #FFFFFF;
+  border-radius: 40px;
+  padding: 40px 24px;
+  margin-top: 112px;
+  margin-bottom: 169px;
+}
+
+.header-form h2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 48px;
+  color: #650107;
+}
+.header-form .header-formr-img {
+  position: absolute;
+  top: 38px;
+}
+
+.form-taikhoan {
+  margin-bottom: 17px;
+}
+.form-taikhoan p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0.012em;
+  color: rgba(101, 1, 7, 0.6);
+}
+.form-taikhoan p a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0.012em;
+  color: #FE616B;
+  margin-left: 8px;
+}
+
+.form {
+  display: grid;
+  margin-bottom: 16px;
+}
+.form label {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0.012em;
+  text-transform: capitalize;
+  color: rgba(101, 1, 7, 0.87);
+  margin-bottom: 8px;
+}
+.form input {
+  border: 0;
+  outline: none;
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid #E8E8E8;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 12px 16px;
+  color: rgba(101, 1, 7, 0.87);
+}
+.form input::placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.012em;
+  color: rgba(101, 1, 7, 0.87);
+}
+.form-luu {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.form-luu a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: right;
+  letter-spacing: 0.012em;
+  color: #FE616B;
+}
+.form-luu label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.012em;
+  color: rgba(101, 1, 7, 0.87);
+}
+.form-luu input {
+  width: 24px;
+  height: 24px;
+  background: #FFFFFF;
+  border: 1px solid #E8E8E8;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-right: 12px;
+}
+
+button {
+  background: linear-gradient(180deg, #FE858D 0%, #FE616B 100%);
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 12px 188px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.012em;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.matkhau-icon #matkhau {
+  position: relative;
+}
+.matkhau-icon img {
+  position: absolute;
+  transform: translate(-41px, 10px);
+}
+
+.or {
+  position: relative;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.or p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.012em;
+  color: rgba(101, 1, 7, 0.6);
+  background-color: #fff;
+  padding: 0 16px;
+  z-index: 1;
+}
+.or-footer {
+  position: absolute;
+  width: 331px;
+  height: 1px;
+  background: rgba(101, 1, 7, 0.16);
+  justify-content: center;
+  align-items: center;
+  top: 12px;
+  left: 74px;
+}
+
+.form-footer {
+  background-color: #FFFFFF;
+  display: grid;
+  padding: 8px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.form-footer a {
+  display: flex;
+  align-items: center;
+}
+.form-footer p {
+  width: 85%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.012em;
+  color: rgba(101, 1, 7, 0.87);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.footer img {
+  margin-bottom: 24px;
+}
+
+@media (min-width: 375px) and (max-width: 667px) {
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    line-height: 1;
+    background-image: url("../image/Rectangle 3.png");
+    background-size: cover;
+  }
+
+  .header {
+    padding: 0 0 12px;
+  }
+
+  .header-form h2 {
+    position: relative;
+    font-size: 1.5rem;
+    padding-bottom: 0px;
+    margin-bottom: 22px;
+  }
+  .header-form h2 .header-formr-img {
+    position: absolute;
+    top: 27px;
+  }
+
+  .menu {
+    position: relative;
+    margin-top: 12px;
+    padding-top: 0px;
+    display: block;
+    padding-bottom: 0px;
+  }
+  .menu .logo {
+    margin-bottom: 0px;
+  }
+  .menu .logo img {
+    width: 133px;
+    height: 41px;
+  }
+  .menu .menu-list {
+    display: block;
+  }
+  .menu .menu-list .menu-mobile {
+    position: absolute;
+    top: 42px;
+    left: 160px;
+  }
+  .menu .menu-list .menu-mobile .img {
+    margin-left: 14px;
+  }
+
+  main .form-mobile {
+    margin-top: 60px;
+    padding: 20px;
+    max-width: 300px;
+    margin-bottom: 15px;
+  }
+  main .form-mobile .form {
+    margin-bottom: 12px;
+  }
+  main .form-mobile .form label {
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+  main .form-mobile .form-luu {
+    margin-bottom: 12px;
+  }
+  main .form-mobile .form-luu input {
+    width: 17px;
+    height: 15px;
+  }
+  main .form-mobile .form-luu_mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .form-mobile button {
+    padding: 6px 101px;
+    margin-bottom: 12px;
+  }
+  main .form-mobile_app .or {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6px;
+  }
+  main .form-mobile_app .or-footer {
+    position: absolute;
+    width: 152px;
+    height: 1px;
+    background: rgba(101, 1, 7, 0.16);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  .footer img {
+    margin-bottom: 5px;
+  }
+}
+@media (min-width: 375px) and (max-width: 812px) {
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    line-height: 1;
+    background-image: url("../image/Rectangle 3.png");
+    background-size: cover;
+  }
+
+  .header {
+    padding: 0 0 12px;
+  }
+
+  .header-form h2 {
+    position: relative;
+    font-size: 1.5rem;
+    padding-bottom: 0px;
+    margin-bottom: 22px;
+  }
+  .header-form h2 img {
+    position: absolute;
+    top: 31px;
+  }
+
+  .menu {
+    position: relative;
+    margin-top: 12px;
+    padding-top: 0px;
+    display: block;
+    padding-bottom: 0px;
+  }
+  .menu .logo {
+    margin-bottom: 0px;
+  }
+  .menu .logo img {
+    width: 133px;
+    height: 41px;
+  }
+  .menu .menu-list {
+    display: block;
+  }
+  .menu .menu-list .menu-mobile {
+    position: absolute;
+    top: 42px;
+    left: 160px;
+  }
+  .menu .menu-list .menu-mobile .img {
+    margin-left: 14px;
+  }
+
+  main .form-mobile {
+    margin-top: 60px;
+    padding: 20px;
+    max-width: 300px;
+    margin-bottom: 120px;
+    margin-bottom: 40px;
+  }
+  main .form-mobile .form {
+    margin-bottom: 20px;
+  }
+  main .form-mobile .form label {
+    font-size: 15px;
+    margin-bottom: 6px;
+  }
+  main .form-mobile .form-luu {
+    margin-bottom: 12px;
+  }
+  main .form-mobile .form-luu input {
+    width: 20px;
+    height: 18px;
+  }
+  main .form-mobile .form-luu_mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .form-mobile button {
+    padding: 6px 101px;
+    margin-bottom: 12px;
+  }
+  main .form-mobile_app .or {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6px;
+  }
+  main .form-mobile_app .or-footer {
+    position: absolute;
+    width: 152px;
+    height: 1px;
+    background: rgba(101, 1, 7, 0.16);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  .footer img {
+    margin-bottom: 5px;
+  }
+}
+@media (min-width: 414px) and (max-width: 763px) {
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    line-height: 1;
+    background-image: url("../image/Rectangle 3.png");
+    background-size: cover;
+  }
+
+  .header {
+    padding: 0 0 12px;
+  }
+
+  .header-form h2 {
+    position: relative;
+    font-size: 1.5rem;
+    padding-bottom: 0px;
+    margin-bottom: 22px;
+  }
+  .header-form h2 img {
+    position: absolute;
+    top: 31px;
+  }
+
+  .menu {
+    position: relative;
+    margin-top: 12px;
+    padding-top: 0px;
+    display: block;
+    padding-bottom: 0px;
+  }
+  .menu .logo {
+    margin-bottom: 0px;
+  }
+  .menu .logo img {
+    width: 133px;
+    height: 41px;
+  }
+  .menu .menu-list {
+    display: block;
+  }
+  .menu .menu-list .menu-mobile {
+    position: absolute;
+    top: 42px;
+    left: 160px;
+  }
+  .menu .menu-list .menu-mobile .img {
+    margin-left: 14px;
+  }
+
+  main .form-mobile {
+    margin-top: 40px;
+    padding: 20px;
+    max-width: 340px;
+    margin-bottom: 40px;
+  }
+  main .form-mobile .form {
+    margin-bottom: 20px;
+  }
+  main .form-mobile .form label {
+    font-size: 15px;
+    margin-bottom: 6px;
+  }
+  main .form-mobile .form-luu {
+    margin-bottom: 12px;
+  }
+  main .form-mobile .form-luu input {
+    width: 20px;
+    height: 18px;
+  }
+  main .form-mobile .form-luu_mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .form-mobile button {
+    padding: 6px 101px;
+    margin-bottom: 12px;
+  }
+  main .form-mobile_app .or {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6px;
+  }
+  main .form-mobile_app .or-footer {
+    position: absolute;
+    width: 152px;
+    height: 1px;
+    background: rgba(101, 1, 7, 0.16);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  .footer img {
+    margin-bottom: 5px;
+  }
+}
+.header-login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 8px;
+}
+.header-login-img {
+  background-color: #f0a8b5;
+}
+
+.header-ke {
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  left: 0px;
+  top: 105px;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+/*# sourceMappingURL=app.css.map */
